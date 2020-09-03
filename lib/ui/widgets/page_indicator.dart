@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../utils/constants.dart';
+
+import '../../core/utils/constants.dart';
 
 class PageIndicator extends StatelessWidget {
   final int currentIndex;

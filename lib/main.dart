@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:musico/ui/widgets/bottom_navigator.dart';
 
 import 'ui/screens/splash_screen.dart';
 
@@ -12,7 +13,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Musico',
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: BottomNavigator(),
     );
   }
 }

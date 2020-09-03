@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:musico/ui/screens/welcome_screen.dart';
 
-import '../../utils/constants.dart';
+import '../../core/utils/constants.dart';
 import '../widgets/page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
