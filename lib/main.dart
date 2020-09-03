@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:musico/ui/widgets/bottom_navigator.dart';
 
-import 'ui/screens/splash_screen.dart';
+import 'ui/widgets/bottom_navigator.dart';
 
 void main() {
   runApp(App());

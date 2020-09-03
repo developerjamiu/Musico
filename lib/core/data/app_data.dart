@@ -24,6 +24,24 @@ List<Music> recentlyAdded = <Music>[
   ),
 ];
 
+List<Music> favoriteSongs = <Music>[
+  Music(
+    artist: 'Ayomikun',
+    name: 'Lambebe',
+    image: 'assets/cardic.jpg',
+  ),
+  Music(
+    artist: 'Adele',
+    name: 'Someone Like You',
+    image: 'assets/adele.jpg',
+  ),
+  Music(
+    artist: 'Olamide',
+    name: 'Motigbana',
+    image: 'assets/olamide.jpg',
+  ),
+];
+
 List<Music> allSongs = <Music>[
   Music(
     artist: 'Olamide',
