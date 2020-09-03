@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:musico/core/data/app_data.dart';
-import 'package:musico/core/utils/constants.dart';
-import 'package:musico/model/music.dart';
-import 'package:musico/ui/widgets/music_controls.dart';
+
+import '../../core/data/app_data.dart';
+import '../../core/utils/constants.dart';
+import '../widgets/music_controls.dart';
 
 class LibraryScreen extends StatelessWidget {
   @override
