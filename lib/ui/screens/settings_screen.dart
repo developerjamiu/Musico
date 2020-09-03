@@ -117,7 +117,7 @@ class SettingsScreen extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          SizedBox(height: 10),
+          SizedBox(height: 30),
           Icon(
             Icons.music_note,
             size: 80,

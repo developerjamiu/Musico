@@ -90,6 +90,7 @@ class ProfileScreen extends StatelessWidget {
                 color: Colors.white24,
               ),
             ),
+            SizedBox(height: 10),
           ],
         ),
       ),
