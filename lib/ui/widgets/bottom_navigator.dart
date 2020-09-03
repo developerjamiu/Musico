@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:musico/ui/screens/home_screen.dart';
 
 import '../../core/utils/constants.dart';
+import '../screens/home_screen.dart';
+import '../screens/library_screen.dart';
 
 class BottomNavigator extends StatefulWidget {
   @override
@@ -12,7 +13,7 @@ class _BottomNavigatorState extends State<BottomNavigator> {
   int _currentIndex = 0;
   final List<Widget> _children = [
     HomeScreen(),
-    PlaceholderWidget(Colors.deepOrange),
+    LibraryScreen(),
     PlaceholderWidget(Colors.green),
     PlaceholderWidget(Colors.green),
   ];
