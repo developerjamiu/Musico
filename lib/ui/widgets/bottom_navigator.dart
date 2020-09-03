@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:musico/ui/screens/settings_screen.dart';
 
 import '../../core/utils/constants.dart';
 import '../screens/home_screen.dart';
@@ -15,7 +16,7 @@ class _BottomNavigatorState extends State<BottomNavigator> {
     HomeScreen(),
     LibraryScreen(),
     PlaceholderWidget(Colors.green),
-    PlaceholderWidget(Colors.green),
+    SettingsScreen(),
   ];
 
   void onTabTapped(int index) {
